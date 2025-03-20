@@ -37,7 +37,7 @@ app.use("/", router)
 
 const Port = process.env.Port
 
-app.listen(Port , () => {
+app.listen(Port ,"0.0.0.0", () => {
 
     console.log(`server running on port ${Port}`);
 })

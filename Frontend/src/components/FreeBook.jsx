@@ -16,7 +16,7 @@ const FreeBook = () => {
     const data = dataList.filter((data) => {
         return data.price =="0"
     })
-  
+    console.log(data);
     var settings = {
       dots: true,
       infinite: false,
@@ -66,7 +66,7 @@ const FreeBook = () => {
       <Slider {...settings}>
         {data.map((item) => {
          
-         return <Card item = {item} key = {item.id} />
+         return <Card item = {item} id = {item.id} />
          
 
         })}

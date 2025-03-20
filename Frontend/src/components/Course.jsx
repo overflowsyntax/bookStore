@@ -1,37 +1,11 @@
-import React, { useEffect, useState } from 'react'
-// import list from '../../public/list.json'
+import React from 'react'
+import list from '../../public/list.json'
 import Card from './Cards'
 
 import {Link} from 'react-router-dom'
 
-
-
 const Course = () => {
-
-  const [list, setList] = useState([])
-
-  useEffect(() => {
-
-    
-
-      
-      async function fetchData() {
-
-        try{
-        
-      let data =await fetch("http://localhost:3001/book")
-      data =await data.json()
-
-      setList(data)
-    }catch(err){
-      console.log("error : " + err)
-    }
-  } 
-    fetchData()
-    
-     
-  },[])
-
+ 
   return (
    <>
    <div className='max-w-screen-2xl container mx-auto'>
