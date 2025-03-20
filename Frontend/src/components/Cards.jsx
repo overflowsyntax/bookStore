@@ -1,8 +1,7 @@
 import React from 'react'
 
 const Card = ({item,id}) => {
-  console.log(item);
-  console.log(id);
+  
   return (
   <>
   <div className="p-3 card bg-base-100 w-96 shadow-sm hover:shadow-blue-200 hover:border-amber-400 hover:scale-105 transition-transform duration-300">
@@ -18,7 +17,7 @@ const Card = ({item,id}) => {
   <div className="card-body">
     <h2 className="card-title">
       {item.name}
-      <div className="badge badge-secondary">Free</div>
+      <div className="badge badge-secondary">New</div>
     </h2>
       <div className='font-bold '>Category : {item.category}</div>
     <p>{item.title}</p>
