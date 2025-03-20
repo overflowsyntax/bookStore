@@ -1,0 +1,18 @@
+/* @import "tailwindcss"; */
+
+@import url('https://fonts.googleapis.com/css2?family=Federo&family=Poppins:wght@500&display=swap');
+
+@import "tailwindcss";
+@plugin "daisyui" {
+  themes: all;
+}
+
+body{
+    font-family: "poppins ,sans-serif";
+
+}
+
+
+.input-theme {
+  @apply bg-gray-200 text-black border border-gray-600 placeholder-gray-800 rounded-md p-2.5 outline-none;
+}

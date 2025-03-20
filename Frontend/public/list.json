@@ -1,0 +1,90 @@
+[
+    {
+        "id": 1,
+        "name": "Story Book",
+        "title": "Adventures of Tom Sawyer",
+        "price": 0,
+        "category": "Fiction",
+        "image": "https://img.freepik.com/free-vector/hand-drawn-flat-design-stack-books-illustration_23-2149341898.jpg"
+    },
+    {
+        "id": 2,
+        "name": "Science Guide",
+        "title": "The Universe Explained",
+        "price": 0,
+        "category": "Science",
+        "image": "https://img.freepik.com/free-vector/education-books-stack-background-flat-design_23-2149337140.jpg"
+    },
+    {
+        "id": 3,
+        "name": "History Book",
+        "title": "World War Chronicles",
+        "price": 12,
+        "category": "History",
+        "image": "https://img.freepik.com/free-vector/book-stack_1308-82177.jpg"
+    },
+    {
+        "id": 4,
+        "name": "Coding Manual",
+        "title": "JavaScript for Beginners",
+        "price": 0,
+        "category": "Programming",
+        "image": "https://img.freepik.com/free-vector/stack-books-hand-drawn-style_23-2149338127.jpg"
+    },
+    {
+        "id": 5,
+        "name": "Cooking Book",
+        "title": "Mastering Italian Cuisine",
+        "price": 18,
+        "category": "Cooking",
+        "image": "https://img.freepik.com/free-vector/stack-books_1308-33242.jpg"
+    },
+    {
+        "id": 6,
+        "name": "Philosophy Book",
+        "title": "The Art of Thinking Clearly",
+        "price": 14,
+        "category": "Philosophy",
+        "image": "https://img.freepik.com/free-vector/bookshelf-with-books-isolated-white_1308-130404.jpg"
+    },
+    {
+        "id": 7,
+        "name": "Poetry Collection",
+        "title": "Romantic Verses",
+        "price": 0,
+        "category": "Poetry",
+        "image": "https://img.freepik.com/free-vector/open-book-flat-design_23-2149321969.jpg"
+    },
+    {
+        "id": 8,
+        "name": "Business Guide",
+        "title": "Startup Strategies",
+        "price": 20,
+        "category": "Business",
+        "image": "https://img.freepik.com/free-vector/stack-books-realistic-composition_1284-11802.jpg"
+    },
+    {
+        "id": 9,
+        "name": "Health & Fitness",
+        "title": "The Science of Healthy Living",
+        "price": 0,
+        "category": "Health",
+        "image": "https://img.freepik.com/free-vector/colorful-stack-books-flat-style_1308-135380.jpg"
+    },
+    {
+        "id": 10,
+        "name": "Mystery Novel",
+        "title": "The Secret of the Missing Key",
+        "price": 0,
+        "category": "Mystery",
+        "image": "https://img.freepik.com/free-vector/hand-drawn-book-cover-template_23-2149321553.jpg"
+    },
+    {
+        "id": 11,
+        "name": "Self-Help",
+        "title": "Atomic Habits",
+        "price": 16,
+        "category": "Self-Help",
+        "image": "https://img.freepik.com/free-vector/colorful-books-stack-hand-drawn-style_23-2149361248.jpg"
+    }
+]
